@@ -25,5 +25,18 @@ Simple Bash Script that pulls Open-Source Feeds from the web That can be used by
 
 ```
 cd /
-git clone 
+git clone https://github.com/RoqueNight/Cyber_Threat_Intelligence.git
+cd Cyber_Threat_Intelligence
+chmod +x ThreatMiner.sh
+./ThreatMiner.sh
+```
+
+# Location of the Pulled Threat Feeds
+
+```
+cd /home/Cyber/ThreatFeeds/
+ls 
+```
+
+
 
